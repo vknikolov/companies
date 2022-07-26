@@ -1,0 +1,46 @@
+.card {
+  width: auto;
+  margin: 15px 0px;
+  border: 1px solid #ccc;
+  padding: 25px 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.inner {
+  position: relative;
+}
+
+.status {
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.statusGreen {
+  background-color: greenyellow;
+}
+
+.statusRed {
+  background-color: red;
+}
+
+.statusGray {
+  background-color: gray;
+}
+
+ul {
+  list-style: none;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 500;
+}
